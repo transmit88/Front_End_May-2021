@@ -1,0 +1,26 @@
+/* TODO: style the html */
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+body {
+    font-family: Montserrat, sans-serif;
+    /*             Font:     Generic Font*/
+    padding: 16px;
+    /*Padding*/
+}
+
+th {
+    background-color: lightblue;
+    /*Background color :*/
+}
+
+th,
+td {
+    width: 144px;
+    /*Width*/
+    height: 32px;
+    /*Height*/
+    border: 1px solid #ccc;
+    /*Solid border with size 1px and color #ccc*/
+    padding-left: 5px;
+    /*Left padding*/
+}
