@@ -1,0 +1,79 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.viewport {
+    height: 150vh;
+    position: relative;
+}
+
+.viewport:first-of-type {
+    background-color: #051937;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.viewport:last-of-type {
+    background-color: #845ec2;
+    background-image: linear-gradient(to right top, #845ec2, #c05cb0, #e66599, #fa7a82, #ff9671);
+}
+
+.viewport .card {
+    display: block;
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport .card img {
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.viewport .card i {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #fff;
+} */
+
+div.viewport {
+    border: 1px solid transparent;
+    position: relative;
+    height: 400px;
+    width: 1000px;
+}
+
+section.card {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+}
+
+#one {
+    background: linear-gradient(90deg, #195a9e, #42cda3);
+}
+
+#two {
+    background: linear-gradient(90deg, #a73278, #d38111);
+}
+
+i {
+    color: #ffffff;
+    font-size: smaller;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
