@@ -1,0 +1,31 @@
+body {
+    padding: 2rem;
+}
+
+body header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header h1 {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    padding-right: 2rem;
+}
+
+li {
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
